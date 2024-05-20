@@ -32,13 +32,13 @@ SallaWebhook.setSecret(SALLA_WEBHOOK_SECRET);
 
 // Add Listners
 SallaWebhook.on("app.installed", (eventBody, userArgs) => {
-  // handel app.installed event
+  // handle app.installed event
 });
-SallaWebhook.on("app.stroe.authorize", (eventBody, userArgs) => {
-  // handel app.installed event
+SallaWebhook.on("app.store.authorize", (eventBody, userArgs) => {
+  // handle app.store.authorize event
 });
 SallaWebhook.on("all", (eventBody, userArgs) => {
-  // handel all events even thats not authorized
+  // handle all events even thats not authorized
 });
 
 // we initialize our Salla API
